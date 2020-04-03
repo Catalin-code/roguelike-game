@@ -1,8 +1,12 @@
 def display_board(board):
-    '''
-    Displays complete game board on the screen
+    for item in board:
+        print(*item)
 
-    Returns:
-    Nothing
-    '''
-    pass
+
+def print_characteristics(characteristics):
+    for key, value in characteristics.items():
+        print(f'{key} : {value}')
+
+
+def print_inventory(inventory):
+    print(inventory)
